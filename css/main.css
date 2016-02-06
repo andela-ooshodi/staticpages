@@ -1,0 +1,48 @@
+body {
+    position: relative;
+}
+
+/* imitating bootstrap .container clas */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-inverse {
+    background-color: #000000; /* black */
+    color: #ffffff; /* white */
+}
+
+.navlogo {
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.navbar-item {
+    display: inline-block;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    top: 0px; /* start from the top of the page */
+    left: 0px; 
+    right: 0px;
+    /* The 'left' and 'right' properties are to make the fixed position use the full width of it's parent container*/
+}
+
+.navright {
+    float: right; /* float elements to the right of the page */
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    margin: 23px 20px;
+    padding-right: 20px;
+}
+
+ul li {
+    display: inline-block; /* make all list items appear in a single line */
+    padding: 10px;
+}
