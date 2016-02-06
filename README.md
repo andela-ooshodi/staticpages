@@ -1,3 +1,3 @@
-# staticpages
+# Staticpages
 
-Building Awesome pages with CSS
+Building awesome pages with CSS
